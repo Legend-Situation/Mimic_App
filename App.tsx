@@ -40,7 +40,7 @@ export default function App(): React.ReactElement {
 				>
 					<WebView
 						style={styles.webView}
-						source={{ uri: 'http://localhost:3000/auth' }}
+						source={{ uri: 'https://front-mimic.netlify.app' }}
 						ref={webViewRef}
 						onLoad={handleWebViewLoad}
 						onNavigationStateChange={handleNavigationStateChange}
